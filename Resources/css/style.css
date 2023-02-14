@@ -342,30 +342,6 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-.home__scroll{
-  display: none;
-}
-
-.home__scroll-button{
-  color: var(--first-color);
-  transition: .4s;
-}
-
-.home__scroll-button:hover{
-  transform: translateY(.25rem);
-}
-
-.home__scroll-mouse{
-  font-size: 2rem;
-}
-
-.home__scroll-name{
-  font-size: var(--small-font-size);
-  color: var(--title-color);
-  font-weight: var(--font-medium);
-  margin: var(--mb-0-25);
-}
-
 /*==================== BUTTONS ====================*/
 .button{
   display: inline-block;
