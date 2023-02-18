@@ -142,7 +142,7 @@
 
                     <div class="about__data">
                         <p class="about__description">
-                            I am a data analysis student.
+                            I am a data analytics student.
                         </p>
 
                         <div class="about__info">
@@ -178,11 +178,11 @@
                 <span class="section__subtitle">What I offer.</span>
 
                 <div class="services__container container grid">
-                    <!--==================== DATA ANALYSIS ====================-->
+                    <!--==================== ANALYSIS ====================-->
                     <div class="services__content">
                         <div>
                             <i class="uil uil-analytics services__icon"></i> 
-                            <h3 class="services__title">Data <br>Analysis</h3>
+                            <h3 class="services__title">Analysis</h3>
                         </div>
 
                         <span class="button button--flex button--small button--link services__button">
@@ -291,7 +291,7 @@
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
                 <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My Technical Level</span>
+                <span class="section__subtitle">My technical level.</span>
 
                 <div class="skills__container container grid">
                      <!--==================== LANGUAGES ====================-->
@@ -528,7 +528,7 @@
             <!--==================== PROJECTS ====================-->
             <section class="projects section" id="projects">
                 <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">My Personal Favorites.</span>
+                <span class="section__subtitle">My personal favorites.</span>
 
                 <div class="projects__container container swiper-container">
                     <div class="swiper-wrapper">
@@ -540,7 +540,7 @@
                                 <h3 class="project__title">Kickstarter Analysis</h3>
                                 <p class="project__description">An analysis of a kickstarter campaign using excel with the goal to 
                                     analyze, visualize, and report on the factors inof the data that make a successful campaign.</p>
-                                    <a href="" class="button button--flex button--small project__button">
+                                    <a href="https://github.com/KalebGordon/Kickstarter-Analysis" class="button button--flex button--small project__button">
                                         Visit
                                         <i class="uil uil-link button__icon"></i>
                                     </a>
@@ -554,7 +554,7 @@
                                 <h3 class="project__title">Ridesharing Analysis</h3>
                                 <p class="project__description">An analysis of data from a mock ridesharing app with 
                                     the goal to analyze, visualize, and give insights on the data provided.</p>
-                                    <a href="" class="button button--flex button--small project__button">
+                                    <a href="https://github.com/KalebGordon/Ridesharing_Analysis" class="button button--flex button--small project__button">
                                         Visit
                                         <i class="uil uil-link button__icon"></i>
                                     </a>
@@ -568,7 +568,7 @@
                                 <h3 class="project__title">Retirement Analysis</h3>
                                 <p class="project__description">An analysis of a mock company's 
                                     employee database with the goal to create tables in SQL to analyze and report on the data provided.</p>
-                                    <a href="" class="button button--flex button--small project__button">
+                                    <a href="https://github.com/KalebGordon/Employee_Retirement_Analysis" class="button button--flex button--small project__button">
                                         Visit
                                         <i class="uil uil-link button__icon"></i>
                                     </a>
@@ -753,25 +753,24 @@
                             </div>
                         </div>
                     </div>  
-                        <form action="mailto:kalebparkergordon@gmail.com" 
+                        <form action="Resources/php/contact-form.php" 
                         method="POST" 
-                        enctype="multipart/form-data" 
                         name="Contact Form" 
                         class="contact__form grid">
                             <div class="contact__inputs grid">
                                 <div class="contact__content">
-                                    <label for="Name" class="contact__label">Name</label>
-                                    <input type="text" class="contact__input" name="Contact-Name">
+                                    <label for="name" class="contact__label">Name</label>
+                                    <input type="text" class="contact__input" name="name" required>
                                 </div>
 
                                 <div class="contact__content">
                                     <label for="Email" class="contact__label">Email</label>
-                                    <input type="email" class="contact__input" name="Contact-Email">
+                                    <input type="email" class="contact__input" name="email" required>
                                 </div>
                             </div>
                             <div class="contact__content">
-                                <label for="Message" class="contact__label">Message</label>
-                                <textarea name="Message" cols="0" rows="7" class="contact__input" name="Contact-Input"></textarea>
+                                <label for="message" class="contact__label">Message</label>
+                                <textarea cols="0" rows="7" class="contact__input" name="message" required></textarea>
                             </div>
 
                             <div>
@@ -797,15 +796,23 @@
 
                     <ul class="footer__links">
                         <li>
+                            <a href="#home" class="footer__link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+
+                        <li>
                             <a href="#services" class="footer__link">Services</a>
                         </li>
 
                         <li>
-                            <a href="#skills" class="footer__link">Skills</a>
+                            <a href="#projects" class="footer__link">Projects</a>
                         </li>
 
                         <li>
-                            <a href="#contact" class="footer__link">Contact Me</a>
+                            <a href="#qualifications" class="footer__link">Qualifications</a>
                         </li>
                     </ul>
 
