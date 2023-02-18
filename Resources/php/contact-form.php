@@ -1,5 +1,7 @@
 <?php
 
+include("Resources/php/config.php");
+
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
@@ -18,8 +20,8 @@ $mail->Host = "smtp-relay.sendinblue.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->Username = "kalebparkergordon@gmail.com";
-$mail->Password ="0gmNPh5F8XHJBzW1";
+$mail->Username = $Username;
+$mail->Password = $Password;
 
 $mail->setFrom($email, $name);
 $mail->addAddress("kalebparkergordon@gmail.com", "Kaleb");
@@ -30,3 +32,5 @@ $mail->Subject = $name;
 $mail->send();
 
 echo "email sent";
+
+?>

@@ -755,22 +755,21 @@
                     </div>  
                         <form action="Resources/php/contact-form.php" 
                         method="POST" 
-                        name="Contact Form" 
                         class="contact__form grid">
                             <div class="contact__inputs grid">
                                 <div class="contact__content">
                                     <label for="name" class="contact__label">Name</label>
-                                    <input type="text" class="contact__input" name="name" required>
+                                    <input type="text" class="contact__input" name="name" id="name" required>
                                 </div>
 
                                 <div class="contact__content">
                                     <label for="Email" class="contact__label">Email</label>
-                                    <input type="email" class="contact__input" name="email" required>
+                                    <input type="email" class="contact__input" name="email" id="email" required>
                                 </div>
                             </div>
                             <div class="contact__content">
                                 <label for="message" class="contact__label">Message</label>
-                                <textarea cols="0" rows="7" class="contact__input" name="message" required></textarea>
+                                <textarea cols="0" rows="7" class="contact__input" name="message" id="message" required></textarea>
                             </div>
 
                             <div>
