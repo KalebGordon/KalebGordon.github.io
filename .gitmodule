@@ -1,0 +1,3 @@
+[submodule "Resources/vendor/autoload.php"]
+    path = "Resources/vendor/autoload.php"
+    url = "https://github.com/KalebGordon/KalebGordon.github.io/tree/main/Resources/vendor/autoload.php"

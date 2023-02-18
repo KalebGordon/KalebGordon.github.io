@@ -6,7 +6,7 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
 
-require "Resources/php/vendor/phpmailer/phpmailer/src/PHPMailer.php";
+require "Resources/vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -33,4 +33,3 @@ $mail->send();
 
 echo "email sent";
 
-?>
